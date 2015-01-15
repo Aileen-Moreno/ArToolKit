@@ -1,0 +1,96 @@
+﻿Compilación iniciada a las 15-01-2015 01:23:20 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\lib\SRC\AR\libAR.vcxproj" en el nodo 4 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\libAR.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\lib\SRC\AR\../../../include" /Zi /nologo /W1 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt arDetectMarker.c arDetectMarker2.c arGetCode.c arGetMarkerInfo.c arGetTransMat.c arGetTransMat2.c arGetTransMat3.c arGetTransMatCont.c arLabeling.c arUtil.c mAlloc.c mAllocDup.c mAllocInv.c mAllocMul.c mAllocTrans.c mAllocUnit.c mDet.c mDisp.c mDup.c mFree.c mInv.c mMul.c mPCA.c mSelfInv.c mTrans.c mUnit.c paramChangeSize.c paramDecomp.c paramDisp.c paramDistortion.c paramFile.c paramGet.c vAlloc.c vDisp.c vFree.c vHouse.c vInnerP.c vTridiag.c
+         arDetectMarker.c
+         arDetectMarker2.c
+         arGetCode.c
+         arGetMarkerInfo.c
+         arGetTransMat.c
+         arGetTransMat2.c
+         arGetTransMat3.c
+         arGetTransMatCont.c
+         arLabeling.c
+         arUtil.c
+         mAlloc.c
+         mAllocDup.c
+         mAllocInv.c
+         mAllocMul.c
+         mAllocTrans.c
+         mAllocUnit.c
+         mDet.c
+         mDisp.c
+         mDup.c
+         mFree.c
+         Generando código...
+         Compilando...
+         mInv.c
+         mMul.c
+         mPCA.c
+         mSelfInv.c
+         mTrans.c
+         mUnit.c
+         paramChangeSize.c
+         paramDecomp.c
+         paramDisp.c
+         paramDistortion.c
+         paramFile.c
+         paramGet.c
+         vAlloc.c
+         vDisp.c
+         vFree.c
+         vHouse.c
+         vInnerP.c
+         vTridiag.c
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\lib\SRC\AR\Release\libAR.lib) no coincide con el valor de la propiedad OutputFile de Library (C:\Program Files\ARToolKit\lib\libAR.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Program Files\ARToolKit\lib\SRC\AR\..\..\libAR.lib" /NOLOGO Release\arDetectMarker.obj
+         Release\arDetectMarker2.obj
+         Release\arGetCode.obj
+         Release\arGetMarkerInfo.obj
+         Release\arGetTransMat.obj
+         Release\arGetTransMat2.obj
+         Release\arGetTransMat3.obj
+         Release\arGetTransMatCont.obj
+         Release\arLabeling.obj
+         Release\arUtil.obj
+         Release\mAlloc.obj
+         Release\mAllocDup.obj
+         Release\mAllocInv.obj
+         Release\mAllocMul.obj
+         Release\mAllocTrans.obj
+         Release\mAllocUnit.obj
+         Release\mDet.obj
+         Release\mDisp.obj
+         Release\mDup.obj
+         Release\mFree.obj
+         Release\mInv.obj
+         Release\mMul.obj
+         Release\mPCA.obj
+         Release\mSelfInv.obj
+         Release\mTrans.obj
+         Release\mUnit.obj
+         Release\paramChangeSize.obj
+         Release\paramDecomp.obj
+         Release\paramDisp.obj
+         Release\paramDistortion.obj
+         Release\paramFile.obj
+         Release\paramGet.obj
+         Release\vAlloc.obj
+         Release\vDisp.obj
+         Release\vFree.obj
+         Release\vHouse.obj
+         Release\vInnerP.obj
+         Release\vTridiag.obj
+         libAR.vcxproj -> C:\Program Files\ARToolKit\lib\SRC\AR\Release\libAR.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\libAR.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\libAR.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\lib\SRC\AR\libAR.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:14.70

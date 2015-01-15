@@ -1,0 +1,24 @@
+﻿Compilación iniciada a las 14-01-2015 08:32:42 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\libARgsub_lite.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\libARgsub_lite.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\../../../include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt gsub_lite.c
+         gsub_lite.c
+     1>c:\program files (x86)\artoolkit\lib\src\gl\gsub_lite.c(660): warning C4090: 'función' : distintos calificadores 'const'
+     1>c:\program files (x86)\artoolkit\lib\src\gl\gsub_lite.c(719): warning C4090: 'función' : distintos calificadores 'const'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\Debug\libARgsub_lite.lib) no coincide con el valor de la propiedad OutputFile de Library (C:\Program Files (x86)\ARToolKit\lib\libARgsub_lited.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libARgsub_lite) no coincide con el valor de la propiedad OutputFile de Library (libARgsub_lited). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\..\..\libARgsub_lited.lib" /NOLOGO Debug\gsub_lite.obj
+         libARgsub_lite.vcxproj -> C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\Debug\libARgsub_lite.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\libARgsub_lite.bsc" Debug\gsub_lite.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\libARgsub_lite.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\libARgsub_lite.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\libARgsub_lite.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:13.05

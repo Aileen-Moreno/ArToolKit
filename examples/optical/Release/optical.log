@@ -1,0 +1,31 @@
+﻿Compilación iniciada a las 15-01-2015 01:23:59 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\examples\optical\optical.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\optical.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\examples\optical\..\..\include" /Zi /nologo /W1 /WX- /O2 /Ob1 /Ot /Oy- /GL /D WIN32 /D NDEBUG /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt draw_object.c object.c optical.c
+         draw_object.c
+         object.c
+         optical.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\examples\optical\Release\optical.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files\ARToolKit\bin\optical.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\ARToolKit\examples\optical\..\..\bin\optical.exe" /NOLOGO /LIBPATH:"C:\Program Files\ARToolKit\examples\optical\..\..\lib" libAR.lib libARgsub.lib libARgsubUtil.lib libARvideo.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\optical.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Program Files\ARToolKit\examples\optical\Release\optical.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\optical.lib" /MACHINE:X86 Release\draw_object.obj
+         Release\object.obj
+         Release\optical.obj
+         "C:\Program Files\ARToolKit\lib\libAR.lib"
+         "C:\Program Files\ARToolKit\lib\libARgsub.lib"
+         "C:\Program Files\ARToolKit\lib\libARgsubUtil.lib"
+         "C:\Program Files\ARToolKit\lib\libARvideo.lib"
+         Generando código
+         Generación de código finalizada
+         optical.vcxproj -> C:\Program Files\ARToolKit\examples\optical\Release\optical.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\ARToolKit\examples\optical\..\..\bin\optical.exe;#1" /manifest Release\optical.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\optical.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\optical.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\examples\optical\optical.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:08.31

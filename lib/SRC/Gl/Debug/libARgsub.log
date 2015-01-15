@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 14-01-2015 08:32:44 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\libARgsub.vcxproj" en el nodo 4 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\libARgsub.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\../../../include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt gsub.c
+         gsub.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\Debug\libARgsub.lib) no coincide con el valor de la propiedad OutputFile de Library (C:\Program Files (x86)\ARToolKit\lib\libARgsubd.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libARgsub) no coincide con el valor de la propiedad OutputFile de Library (libARgsubd). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\..\..\libARgsubd.lib" /NOLOGO Debug\gsub.obj
+         libARgsub.vcxproj -> C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\Debug\libARgsub.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\libARgsub.bsc" Debug\gsub.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\libARgsub.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\libARgsub.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\lib\SRC\Gl\libARgsub.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:12.81

@@ -1,0 +1,41 @@
+﻿Compilación iniciada a las 14-01-2015 08:32:57 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\examples\paddleDemo\paddleDemo.vcxproj" en el nodo 4 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\paddleDemo.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\examples\paddleDemo\..\..\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt paddleDemo.c paddle.c command_sub.c util.c
+         paddleDemo.c
+     1>paddleDemo.c(96): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : vea la declaración de 'scanf'
+         paddle.c
+     1>paddle.c(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : vea la declaración de 'fopen'
+     1>paddle.c(24): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>paddle.c(29): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>paddle.c(37): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+         command_sub.c
+         util.c
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\examples\paddleDemo\Debug\paddleDemo.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files (x86)\ARToolKit\bin\paddleDemod.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(paddleDemo) no coincide con el valor de la propiedad OutputFile de Linker (paddleDemod). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\ARToolKit\examples\paddleDemo\..\..\bin\paddleDemod.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\ARToolKit\examples\paddleDemo\..\..\lib" libARd.lib libARMultid.lib libARgsubd.lib libARvideod.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\paddleDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\ARToolKit\examples\paddleDemo\Debug\paddleDemo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\paddleDemo.lib" /MACHINE:X86 Debug\paddleDemo.obj
+         Debug\paddle.obj
+         Debug\command_sub.obj
+         Debug\util.obj /DEBUG 
+         paddleDemo.vcxproj -> C:\Program Files (x86)\ARToolKit\examples\paddleDemo\Debug\paddleDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\ARToolKit\examples\paddleDemo\..\..\bin\paddleDemod.exe;#1" /manifest Debug\paddleDemo.exe.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\paddleDemo.bsc" Debug\paddleDemo.sbr Debug\paddle.sbr Debug\command_sub.sbr Debug\util.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\paddleDemo.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\paddleDemo.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\examples\paddleDemo\paddleDemo.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:15.68

@@ -1,0 +1,26 @@
+#the number of patterns to be recognized
+4
+
+#pattern 2
+VRML	Wrl/snoman.dat
+Data/pat.b
+80.0
+0.0 0.0
+
+#pattern 3
+VRML	Wrl/delfin.dat
+Data/pat.g
+80.0
+0.0 0.0
+
+#pattern 4
+VRML	Wrl/gato.dat
+Data/pat.elefante2
+80.0
+0.0 0.0
+
+#pattern 5
+VRML	Wrl/barco.dat
+Data/pat.mariposa2
+80.0
+0.0 0.0

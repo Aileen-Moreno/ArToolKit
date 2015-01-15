@@ -1,0 +1,25 @@
+﻿Compilación iniciada a las 15-01-2015 01:25:04 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\examples\twoView\twoView.vcxproj" en el nodo 5 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\twoView.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\examples\twoView\Release\twoView.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files\ARToolKit\bin\twoView.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\ARToolKit\examples\twoView\..\..\bin\twoView.exe" /NOLOGO /LIBPATH:"C:\Program Files\ARToolKit\examples\twoView\..\..\lib" libAR.lib libARgsub_lite.lib libARvideo.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\twoView.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Program Files\ARToolKit\examples\twoView\Release\twoView.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\twoView.lib" /MACHINE:X86 Release\twoView.obj
+         "C:\Program Files\ARToolKit\lib\libAR.lib"
+         "C:\Program Files\ARToolKit\lib\libARgsub_lite.lib"
+         "C:\Program Files\ARToolKit\lib\libARvideo.lib"
+         Generando código
+         Generación de código finalizada
+         twoView.vcxproj -> C:\Program Files\ARToolKit\examples\twoView\Release\twoView.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\ARToolKit\examples\twoView\..\..\bin\twoView.exe;#1" /manifest Release\twoView.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\twoView.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\twoView.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\examples\twoView\twoView.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.19

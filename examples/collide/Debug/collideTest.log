@@ -1,0 +1,39 @@
+﻿Compilación iniciada a las 14-01-2015 08:33:12 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\examples\collide\collideTest.vcxproj" en el nodo 5 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\collideTest.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\examples\collide\..\..\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt collideTest.c object.c
+         collideTest.c
+         object.c
+     1>object.c(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : vea la declaración de 'fopen'
+     1>object.c(49): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>object.c(60): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>object.c(67): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>object.c(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>object.c(80): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\examples\collide\Debug\collideTest.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files (x86)\ARToolKit\bin\collideTestd.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(collideTest) no coincide con el valor de la propiedad OutputFile de Linker (collideTestd). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\ARToolKit\examples\collide\..\..\bin\collideTestd.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\ARToolKit\examples\collide\..\..\lib" libARd.lib libARgsubd.lib libARvideod.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\collideTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\ARToolKit\examples\collide\Debug\collideTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\collideTest.lib" /MACHINE:X86 Debug\collideTest.obj
+         Debug\object.obj /DEBUG 
+         collideTest.vcxproj -> C:\Program Files (x86)\ARToolKit\examples\collide\Debug\collideTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\ARToolKit\examples\collide\..\..\bin\collideTestd.exe;#1" /manifest Debug\collideTest.exe.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\collideTest.bsc" Debug\collideTest.sbr Debug\object.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\collideTest.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\collideTest.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\examples\collide\collideTest.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:17.82

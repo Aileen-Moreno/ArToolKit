@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 14-01-2015 09:49:17 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\lookat\lookat.vcxproj" en el nodo 4 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\lookat.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\..\src\libopenvrml /I"..\..\..\..\..\src\libopenvrml-gl" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _WINDOWS /D OPENVRML_ENABLE_IMAGETEXTURE_NODE /D OPENVRML_ENABLE_GZIP /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4099 /wd4226 /wd4290 /wd4800 /analyze- /errorReport:prompt ..\..\..\..\..\src\lookat\lookat.cpp ..\..\..\..\..\src\lookat\ViewerGlut.cpp
+         lookat.cpp
+         ViewerGlut.cpp
+         Generando código...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\lookat.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\regex\Release /LIBPATH:..\antlr\Release /LIBPATH:..\openvrml\Release /LIBPATH:"..\openvrml-gl\Release" /LIBPATH:..\..\..\..\..\..\..\dependencies\lib ws2_32.lib opengl32.lib glu32.lib glut32.lib libjpeg.lib libpng.lib zlib.lib openvrml.lib "openvrml-gl.lib" antlr.lib regex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\lookat.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\lookat\Release\lookat.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\lookat.lib" /MACHINE:X86 Release\lookat.obj
+         Release\ViewerGlut.obj
+         "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\antlr\Release\antlr.lib"
+         "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml-gl\Release\openvrml-gl.lib"
+         "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml\Release\openvrml.lib"
+         "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\Release\regex.lib"
+     1>LINK : fatal error LNK1104: no se puede abrir el archivo 'LIBC.lib'
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\lookat\lookat.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:05.37

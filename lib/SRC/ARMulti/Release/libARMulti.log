@@ -1,0 +1,24 @@
+﻿Compilación iniciada a las 15-01-2015 01:24:09 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\lib\SRC\ARMulti\libARMulti.vcxproj" en el nodo 3 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\libARMulti.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\lib\SRC\ARMulti\../../../include" /Zi /nologo /W1 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt arMultiActivate.c arMultiGetTransMat.c arMultiReadConfigFile.c
+         arMultiActivate.c
+         arMultiGetTransMat.c
+         arMultiReadConfigFile.c
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\lib\SRC\ARMulti\Release\libARMulti.lib) no coincide con el valor de la propiedad OutputFile de Library (C:\Program Files\ARToolKit\lib\libARMulti.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Program Files\ARToolKit\lib\SRC\ARMulti\..\..\libARMulti.lib" /NOLOGO Release\arMultiActivate.obj
+         Release\arMultiGetTransMat.obj
+         Release\arMultiReadConfigFile.obj
+         libARMulti.vcxproj -> C:\Program Files\ARToolKit\lib\SRC\ARMulti\Release\libARMulti.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\libARMulti.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\libARMulti.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\lib\SRC\ARMulti\libARMulti.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.58

@@ -1,0 +1,23 @@
+﻿Compilación iniciada a las 15-01-2015 01:23:46 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\util\graphicsTest\graphicsTest.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\graphicsTest.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\util\graphicsTest\..\..\include" /Zi /nologo /W1 /WX- /O2 /Ob1 /Ot /Oy- /GL /D WIN32 /D NDEBUG /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt graphicsTest.c
+         graphicsTest.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\util\graphicsTest\Release\graphicsTest.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files\ARToolKit\bin\graphicsTest.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\ARToolKit\util\graphicsTest\..\..\bin\graphicsTest.exe" /NOLOGO /LIBPATH:"C:\Program Files\ARToolKit\util\graphicsTest\..\..\lib" libAR.lib libARgsub.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\graphicsTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Program Files\ARToolKit\util\graphicsTest\Release\graphicsTest.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\graphicsTest.lib" /MACHINE:X86 Release\graphicsTest.obj
+         Generando código
+         Generación de código finalizada
+         graphicsTest.vcxproj -> C:\Program Files\ARToolKit\util\graphicsTest\Release\graphicsTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\ARToolKit\util\graphicsTest\..\..\bin\graphicsTest.exe;#1" /manifest Release\graphicsTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\graphicsTest.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\graphicsTest.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\util\graphicsTest\graphicsTest.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:09.40

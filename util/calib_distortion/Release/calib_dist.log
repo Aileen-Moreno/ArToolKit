@@ -1,0 +1,26 @@
+﻿Compilación iniciada a las 15-01-2015 01:25:03 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\util\calib_distortion\calib_dist.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\calib_dist.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\util\calib_distortion\Release\calib_dist.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files\ARToolKit\bin\calib_dist.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\ARToolKit\util\calib_distortion\..\..\bin\calib_dist.exe" /NOLOGO /LIBPATH:"C:\Program Files\ARToolKit\util\calib_distortion\..\..\lib" libAR.lib libARvideo.lib libARgsub_lite.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\calib_dist.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Program Files\ARToolKit\util\calib_distortion\Release\calib_dist.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\calib_dist.lib" /MACHINE:X86 Release\calib_dist.obj
+         Release\check_dist.obj
+         "C:\Program Files\ARToolKit\lib\libAR.lib"
+         "C:\Program Files\ARToolKit\lib\libARgsub_lite.lib"
+         "C:\Program Files\ARToolKit\lib\libARvideo.lib"
+         Generando código
+         Generación de código finalizada
+         calib_dist.vcxproj -> C:\Program Files\ARToolKit\util\calib_distortion\Release\calib_dist.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\ARToolKit\util\calib_distortion\..\..\bin\calib_dist.exe;#1" /manifest Release\calib_dist.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\calib_dist.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\calib_dist.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\util\calib_distortion\calib_dist.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.35

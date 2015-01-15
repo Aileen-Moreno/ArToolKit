@@ -1,0 +1,51 @@
+﻿Compilación iniciada a las 14-01-2015 09:47:17 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\regex.vcxproj" en el nodo 3 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\regex.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _LIB /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\..\lib\regex\regcomp.c ..\..\..\..\..\lib\regex\regerror.c ..\..\..\..\..\lib\regex\regexec.c ..\..\..\..\..\lib\regex\regfree.c
+         regcomp.c
+     1>..\..\..\..\..\lib\regex\regcomp.c(676): warning C4101: 'c' : variable local sin referencia
+     1>..\..\..\..\..\lib\regex\regcomp.c(892): warning C4101: 'c' : variable local sin referencia
+     1>..\..\..\..\..\lib\regex\regcomp.c(1156): warning C4018: '<' : no coinciden signed/unsigned
+     1>..\..\..\..\..\lib\regex\regcomp.c(1187): warning C4018: '<' : no coinciden signed/unsigned
+     1>..\..\..\..\..\lib\regex\regcomp.c(1214): warning C4018: '<' : no coinciden signed/unsigned
+     1>..\..\..\..\..\lib\regex\regcomp.c(1234): warning C4018: '<' : no coinciden signed/unsigned
+     1>..\..\..\..\..\lib\regex\regcomp.c(1263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         regerror.c
+     1>..\..\..\..\..\lib\regex\regerror.c(121): warning C4028: parámetro formal 2 distinto de la declaración
+     1>..\..\..\..\..\lib\regex\regerror.c(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\..\..\..\lib\regex\regerror.c(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>..\..\..\..\..\lib\regex\regerror.c(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\..\..\..\lib\regex\regerror.c(151): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : vea la declaración de 'strncpy'
+     1>..\..\..\..\..\lib\regex\regerror.c(178): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>..\..\..\..\..\lib\regex\regerror.c(170): warning C4101: 'p' : variable local sin referencia
+     1>..\..\..\..\..\lib\regex\regerror.c(169): warning C4101: 'siz' : variable local sin referencia
+         regexec.c
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(225): warning C4018: '<=' : no coinciden signed/unsigned
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(282): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(283): warning C4018: '<=' : no coinciden signed/unsigned
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(225): warning C4018: '<=' : no coinciden signed/unsigned
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(282): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(283): warning C4018: '<=' : no coinciden signed/unsigned
+         regfree.c
+         Generando código...
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(689): warning C4715: 'sbackref' : no todas las rutas de acceso de control devuelven un valor
+     1>c:\program files (x86)\artoolkit\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(689): warning C4715: 'lbackref' : no todas las rutas de acceso de control devuelven un valor
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\regex.lib" /NOLOGO Release\regcomp.obj
+         Release\regerror.obj
+         Release\regexec.obj
+         Release\regfree.obj
+         regex.vcxproj -> C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\Release\regex.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\regex.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\regex.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\regex.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.88

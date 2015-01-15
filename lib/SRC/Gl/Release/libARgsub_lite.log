@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 15-01-2015 01:24:56 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\lib\SRC\Gl\libARgsub_lite.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Release\libARgsub_lite.unsuccessfulbuild".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\lib\SRC\Gl\../../../include" /Zi /nologo /W1 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt gsub_lite.c
+         gsub_lite.c
+     1>gsub_lite.c(660): warning C4090: 'función' : distintos calificadores 'const'
+     1>gsub_lite.c(719): warning C4090: 'función' : distintos calificadores 'const'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\lib\SRC\Gl\Release\libARgsub_lite.lib) no coincide con el valor de la propiedad OutputFile de Library (C:\Program Files\ARToolKit\lib\libARgsub_lite.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Program Files\ARToolKit\lib\SRC\Gl\..\..\libARgsub_lite.lib" /NOLOGO Release\gsub_lite.obj
+         libARgsub_lite.vcxproj -> C:\Program Files\ARToolKit\lib\SRC\Gl\Release\libARgsub_lite.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\libARgsub_lite.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\libARgsub_lite.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\lib\SRC\Gl\libARgsub_lite.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.40

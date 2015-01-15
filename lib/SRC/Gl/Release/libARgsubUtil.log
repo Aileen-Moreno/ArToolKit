@@ -1,0 +1,18 @@
+﻿Compilación iniciada a las 15-01-2015 01:24:57 p.m..
+     1>Proyecto "C:\Program Files\ARToolKit\lib\SRC\Gl\libARgsubUtil.vcxproj" en el nodo 3 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\libARgsubUtil.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\lib\SRC\Gl\Release\libARgsubUtil.lib) no coincide con el valor de la propiedad OutputFile de Library (C:\Program Files\ARToolKit\lib\libARgsubUtil.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         Todas las salidas están actualizadas.
+         libARgsubUtil.vcxproj -> C:\Program Files\ARToolKit\lib\SRC\Gl\Release\libARgsubUtil.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\libARgsubUtil.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\libARgsubUtil.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\lib\SRC\Gl\libARgsubUtil.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.15

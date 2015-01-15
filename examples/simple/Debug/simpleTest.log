@@ -1,0 +1,27 @@
+﻿Compilación iniciada a las 14-01-2015 08:34:13 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\examples\simple\simpleTest.vcxproj" en el nodo 5 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\simpleTest.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\examples\simple\..\..\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt simpleTest.c
+         simpleTest.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\examples\simple\Debug\simpleTest.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files (x86)\ARToolKit\bin\simpleTestd.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(simpleTest) no coincide con el valor de la propiedad OutputFile de Linker (simpleTestd). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\ARToolKit\examples\simple\..\..\bin\simpleTestd.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\ARToolKit\examples\simple\..\..\lib" libARd.lib libARgsubd.lib libARvideod.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\simpleTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\ARToolKit\examples\simple\Debug\simpleTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\simpleTest.lib" /MACHINE:X86 Debug\simpleTest.obj
+         "C:\Program Files (x86)\ARToolKit\lib\libARd.lib"
+         "C:\Program Files (x86)\ARToolKit\lib\libARgsubd.lib"
+         "C:\Program Files (x86)\ARToolKit\lib\libARvideod.lib" /DEBUG 
+         simpleTest.vcxproj -> C:\Program Files (x86)\ARToolKit\examples\simple\Debug\simpleTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\ARToolKit\examples\simple\..\..\bin\simpleTestd.exe;#1" /manifest Debug\simpleTest.exe.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\simpleTest.bsc" Debug\simpleTest.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\simpleTest.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\simpleTest.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\examples\simple\simpleTest.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:14.64

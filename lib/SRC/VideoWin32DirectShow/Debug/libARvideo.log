@@ -1,0 +1,25 @@
+﻿Compilación iniciada a las 14-01-2015 08:32:55 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\libARvideo.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\..\include" /I"C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\..\DSVL\src" /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBARVIDEO_EXPORTS /D _WINDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt videoWin32DirectShow.cpp
+         videoWin32DirectShow.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\Debug\libARvideo.dll) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files (x86)\ARToolKit\bin\libARvideod.dll). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(libARvideo) no coincide con el valor de la propiedad OutputFile de Linker (libARvideod). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\..\bin\libARvideod.dll" /NOLOGO /LIBPATH:"C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\..\DSVL\lib\\" DSVLd.lib comsupp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libARvideo.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\libARvideo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\libARvideod.lib" /MACHINE:X86 /DLL Debug\videoWin32DirectShow.obj
+            Creando biblioteca C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\libARvideod.lib y objeto C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\libARvideod.exp
+         libARvideo.vcxproj -> C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\Debug\libARvideo.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\..\..\..\bin\libARvideod.dll;#2" /manifest Debug\libARvideo.dll.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\libARvideo.bsc" Debug\videoWin32DirectShow.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\libARvideo.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\libARvideo.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:14.00

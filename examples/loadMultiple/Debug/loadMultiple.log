@@ -1,0 +1,55 @@
+﻿Compilación iniciada a las 15-01-2015 10:38:25 a.m..
+     1>Proyecto "C:\Program Files\ARToolKit\examples\loadMultiple\loadMultiple.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\loadMultiple.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\ARToolKit\examples\loadMultiple\..\..\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt loadMultiple.c
+         loadMultiple.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files\ARToolKit\examples\loadMultiple\Debug\loadMultiple.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files\ARToolKit\bin\loadMultipled.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(loadMultiple) no coincide con el valor de la propiedad OutputFile de Linker (loadMultipled). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\ARToolKit\examples\loadMultiple\..\..\bin\loadMultipled.exe" /NOLOGO /LIBPATH:"C:\Program Files\ARToolKit\examples\loadMultiple\..\..\lib" libARd.lib libARgsubd.lib libARvideod.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\loadMultiple.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\ARToolKit\examples\loadMultiple\Debug\loadMultiple.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\loadMultiple.lib" /MACHINE:X86 Debug\loadMultiple.obj
+         Debug\object.obj /DEBUG 
+         LINK : no se encontró C:\Program Files\ARToolKit\examples\loadMultiple\..\..\bin\loadMultipled.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+     1>libARd.lib(arDetectMarker.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arDetectMarker2.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arGetCode.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arGetMarkerInfo.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arGetTransMat.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arGetTransMat2.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arGetTransMat3.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arGetTransMatCont.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arLabeling.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(arUtil.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mAlloc.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mAllocDup.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mAllocMul.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mDup.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mFree.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mMul.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mPCA.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(mSelfInv.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(paramChangeSize.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(paramDecomp.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(paramDisp.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(paramDistortion.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(paramFile.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(vAlloc.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(vFree.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(vHouse.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(vInnerP.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARd.lib(vTridiag.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libARgsubd.lib(gsub.obj) : warning LNK4204: falta información de depuración de 'C:\Program Files\ARToolKit\examples\loadMultiple\Debug\vc100.pdb' para hacer referencia al módulo; se vinculará el objeto sin tener en cuenta información de depuración
+         loadMultiple.vcxproj -> C:\Program Files\ARToolKit\examples\loadMultiple\Debug\loadMultiple.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\ARToolKit\examples\loadMultiple\..\..\bin\loadMultipled.exe;#1" /manifest Debug\loadMultiple.exe.intermediate.manifest
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\loadMultiple.bsc" Debug\loadMultiple.sbr Debug\object.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\loadMultiple.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\loadMultiple.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\ARToolKit\examples\loadMultiple\loadMultiple.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:06.60

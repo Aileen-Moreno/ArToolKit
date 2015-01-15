@@ -1,0 +1,32 @@
+#the number of patterns to be recognized
+4
+
+#pattern 1
+Hiro
+Data/patt.hiro
+80.0
+0.0 0.0
+
+#pattern 2
+Kanji
+Data/pat.arbol
+80.0
+0.0 0.0
+
+#pattern 3
+Mariposa
+Data/pat.mariposa2
+80.0
+0.0 0.0
+
+#pattern 4
+Elefante
+Data/pat.elefante2
+80.0
+0.0 0.0
+
+#pattern 5
+Gato
+Data/pat.gato
+80.0
+0.0 0.0

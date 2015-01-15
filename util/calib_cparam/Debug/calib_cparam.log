@@ -1,0 +1,49 @@
+﻿Compilación iniciada a las 14-01-2015 08:33:51 a.m..
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\util\calib_cparam\calib_cparam.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\calib_cparam.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\ARToolKit\util\calib_cparam\..\..\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt calib_cparam.c calib_cparam_sub.c
+         calib_cparam.c
+     1>calib_cparam.c(184): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : vea la declaración de 'scanf'
+     1>calib_cparam.c(187): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : vea la declaración de 'scanf'
+     1>calib_cparam.c(190): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : vea la declaración de 'scanf'
+     1>calib_cparam.c(193): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : vea la declaración de 'scanf'
+     1>calib_cparam.c(330): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : vea la declaración de 'scanf'
+         calib_cparam_sub.c
+     1>calib_cparam_sub.c(26): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>calib_cparam_sub.c(29): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>calib_cparam_sub.c(37): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>calib_cparam_sub.c(45): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>calib_cparam_sub.c(48): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\ARToolKit\util\calib_cparam\Debug\calib_cparam.exe) no coincide con el valor de la propiedad OutputFile de Linker (C:\Program Files (x86)\ARToolKit\bin\calib_cparamd.exe). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(calib_cparam) no coincide con el valor de la propiedad OutputFile de Linker (calib_cparamd). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\ARToolKit\util\calib_cparam\..\..\bin\calib_cparamd.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\ARToolKit\util\calib_cparam\..\..\lib" libARd.lib libARgsub_lited.lib libARvideod.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\calib_cparam.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\ARToolKit\util\calib_cparam\Debug\calib_cparam.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\calib_cparam.lib" /MACHINE:X86 Debug\calib_cparam.obj
+         Debug\calib_cparam_sub.obj
+         "C:\Program Files (x86)\ARToolKit\lib\libARd.lib"
+         "C:\Program Files (x86)\ARToolKit\lib\libARvideod.lib" /DEBUG 
+         calib_cparam.vcxproj -> C:\Program Files (x86)\ARToolKit\util\calib_cparam\Debug\calib_cparam.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\ARToolKit\util\calib_cparam\..\..\bin\calib_cparamd.exe;#1" /manifest Debug\calib_cparam.exe.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\calib_cparam.bsc" Debug\calib_cparam.sbr Debug\calib_cparam_sub.sbr
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\calib_cparam.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\calib_cparam.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\util\calib_cparam\calib_cparam.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:19.92
